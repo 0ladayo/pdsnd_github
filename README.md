@@ -1,17 +1,18 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+>**Note**: I **fork** the current Udacity repository so that I will have a **remote** repository in **my** Github account. I Cloned the remote repository to my local machine. Later, as a part of the project "Post your Work on Github", I pushed my changes to the remote repository in my Github account.
 
 ### Date created
-Include the date you created this project and README file.
+24th September 2021
 
 ### Project Title
-Replace the Project Title
+Udacity Version Control Project
 
 ### Description
-Describe what your project is about and what it does
+DThis project is to test my understanding of version control tool (git) and the hosting service (github)
 
 ### Files used
-Include the files used
+bikeshare python files
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity Version Control Tutor
+Google Search
 
