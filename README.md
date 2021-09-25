@@ -16,3 +16,5 @@ bikeshare python files
 Udacity Version Control Tutor
 Google Search
 
+### Student Feedback
+The Version Control section of the course was well delivered by the tutor and I highly recommend it for anyone just starting with Version Control
