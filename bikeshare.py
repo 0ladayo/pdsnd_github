@@ -171,22 +171,22 @@ def user_stats(df):
     else:
         print("the city entered doesn't have users birth year information in its data")
 
-def dataframe_stats(df):
+def individual_trip_data(df):
     while True:
-        view_data = (input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n')).lower()
+        view_individual_data = (input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n')).lower()
         a_list=['yes','no']
-        if view_data not in a_list:
+        if view_individual_data not in a_list:
             print('Enter yes or no')
         else:
-            start_loc=0
-            while (view_data=='yes'):
-                print(df.iloc[start_loc:(start_loc+5)])
-                start_loc += 5
-                view_data=(input('Do you wish to continue?: ')).lower()
+            start_row_index=0
+            while (view_individual_data=='yes'):
+                print(df.iloc[start_row_index:(start_row_index+5)])
+                start_row_index += 5
+                view_individual_data=(input('Do you wish to continue?: ')).lower()
                 b_list=['yes','no']
-                if view_data not in b_list:
+                if view_individual_data not in b_list:
                     print('Enter yes or no')
-                    view_data=(input('Do you wish to continue?: ')).lower()
+                    view_individual_data=(input('Do you wish to continue?: ')).lower()
             else:
                 break
 
@@ -199,7 +199,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        dataframe_stats(df)
+        individual_trip_data(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
